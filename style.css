@@ -1,0 +1,162 @@
+body {
+	background-color: #FAEF4B;
+	color: #26C1C7;
+	font-family: Lora;
+	text-align: center;
+	font-size: 17px;
+  background-image: url('images/Ocean.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: ;
+  background-color: #f0f0f0;
+}
+
+h1, h2, h3 {
+	font-family: Roboto, sans-serif;
+}
+h1 {
+	color: #FAEF4B;
+	font-weight: 900;
+	letter-spacing: 10 px;
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h2 {
+	color: #FAEF4B;
+	text-align: center;
+	font-size: 26px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	transition: color 0.3s ease;
+	color: #26C1C7;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: yellow;
+	text-decoration: none;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: #FBFBEB;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1) ;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #26C1C7;
+	color: white;
+	padding: 15px 20px;
+}
+
+.btn-blue:hover {
+	background-color: #FAEF4B;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #26C1C7;
+}
+.list-inline i:hover {
+	color: #FAEF4B;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.language-name {
+  margin-bottom: 5px;
+}
+
+.flag {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border-radius: 50%;
+
+  form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form input[type="email"],
+form input[type="password"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #FAEF4B;
+}
+.email-label {
+  color: #FAEF4B;
+}
+.password-label {
+  color: #FAEF4B;
